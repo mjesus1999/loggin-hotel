@@ -1,0 +1,152 @@
+/* Este es el cuadro azul de Bienvenido a casa grau*/
+section {
+  position: relative;
+  max-width: 550px; 
+  background-color: rgb(3, 3, 49);
+  border: 2px solid rgba(3, 3, 49);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem; 
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 0px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+  position: relative;
+}
+/* Texto "BIENVENIDO AL HOTEL CASA GRAU" */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px; 
+  color: #ffffff;
+  Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+}
+
+/* Estilos de las cajitas (arriba de Usuario y Contraseña) */
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0; 
+}
+
+/* Estilos del texto dentro de las cajitas */
+.inputbox label {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* Estilos del input */
+.inputbox input {
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  margin-bottom: 10px; 
+}
+
+
+/* Para darle diseño al boton inicio de sesion */
+button {
+  width: 40%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos de enlace que registra */
+.register {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+/* Estilos del enlace dentro del párrafo de registro */
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.forget a {
+  color: #ffffff; 
+}
+
+/* Estilos de la sección "Recuérdame"  */
+.forget {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+/* Ajustes adicionales para evitar desbordamiento */
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+}
+/* Este es la imagen de fondo el de color beigue medio crema */
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-image: url('imagenes/final-fondo.JPG'); 
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden; 
+}
+/* Estilos de la imagen beigue.jpg */
+.image-container {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}.image-container {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Estilo de la imagen donde se podra recortar de forma diagonal */
+.image-container {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  float: left;
+  clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%); 
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
